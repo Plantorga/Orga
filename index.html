@@ -12,7 +12,7 @@
     font-size: xx-large;
     background-color: gray;
 }
-a{
+.nav a{
     text-decoration: overline;
     margin-left: 10px;
     color: black;
@@ -23,11 +23,26 @@ a:hover{
 }
 h1{
     font-size: 50px;
+   
 }
 .veo{
     justify-content: space-around;
     display: flex;
     align-items: center;
+    background-color: rgb(44, 30, 30);
+    color: white;
+    font-size: 50px;
+    color: green;
+}
+.veo a{
+    color: green;
+}
+@media screen and (max-width: 450px) {
+    .FOTO{
+        height: 135px;
+        width: 200px;
+        position: sticky;
+    }
 }
 
 
@@ -39,10 +54,28 @@ h1{
         font-size: x-large;
     }
     .veo{
-        width: 710px;
-        height: 420px;
+        display: flex;
+  align-items: center;
+  justify-content: center;
     }
+
+
 }
+.Text{
+    font-size: 25px;
+    color: grey;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+li{
+    display: inline;
+    
+}
+
+
 </style>
 <body background="pexels-photo-1458694.jpeg">
 <h1>Noah's Garten</h1>
@@ -51,21 +84,40 @@ h1{
 <div class="nav">
     <a href="News.html">News</a>
     <a href="Impressum.html">Impressum</a>
-    <a>Alte Videos</a>
+    <a href="ob.html">Alte Videos</a>
 </div>
 <br>
-<br>
+
+<div class="Text">
+    Hallo ich bin Noah, <br> <br>
+    Als leidenschaftlicher Hobbygärtner hege ich eine tiefe Liebe zu meinen Pflanzen.
+    <br><br> Jedes Mal, wenn ich in der Erde wühle und ihre Entwicklung beobachte, spüre ich eine innige Verbindung zur Natur.
+    <br> <br>Die Freude am Gärtnern teile ich gerne mit meinem Bruder Jonas, der mich mit meiner Kamera unterstützt.<br> <br>
+     Gemeinsam erleben wir die Schönheit und Magie der Pflanzenwelt und lassen uns von ihr inspirieren.
+
+     <img class="FOTO" height="270px" width="400px" src="JN.png">
+</div>
 <div class="veo">
-    <div style="position:relative;width:fit-content;height:fit-content;">
-        <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/b5MYk7l5fvx?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-           
-        </a>
-        <div class="video-wrapper">
-        <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/b5MYk7l5fvx/embed" allowfullscreen="allowfullscreen" style="border: 0;" width="1600px" height="900px"></iframe>
-            </div>
+    <ul>
+
+    <li><div class="one">
+    <a href="https://drive.google.com/file/d/16vzrpL6vEBRmfKt_x60ETgWmgOpCHOqi/view?usp=drive_link">Garten Expedition #1</a>
     </div>
+    </li>
+    <div class="two">
+    <a href="">...</a>
+    </div>
+    <div class="three">
+    <a href="">...</a>
+    </div>
+    <div class="four">
+    <a href="">...</a>
+    </div>
+    </ul>
    
 
 </div>
+
+
 </body>
 </html>

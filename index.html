@@ -27,14 +27,20 @@ h1{
 .veo{
     justify-content: space-around;
     display: flex;
+    align-items: center;
 }
 
-@media screen and (max-width: 300px) {
+
+@media screen and (max-width: 720px) {
     h1{
         font-size: 25px;
     }
     .nav{
         font-size: x-large;
+    }
+    .veo{
+        width: 710px;
+        height: 420px;
     }
 }
 </style>
@@ -48,12 +54,15 @@ h1{
     <a>Alte Videos</a>
 </div>
 <br>
+<br>
 <div class="veo">
     <div style="position:relative;width:fit-content;height:fit-content;">
         <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/b5MYk7l5fvx?utm_source=embed&utm_medium=embed&utm_campaign=watch">
            
         </a>
-        <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/b5MYk7l5fvx/embed" width="1920" height="1080"></iframe>
+        <div class="video-wrapper">
+        <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/b5MYk7l5fvx/embed" allowfullscreen="allowfullscreen" style="border: 0;" width="1600px" height="900px"></iframe>
+            </div>
     </div>
    
 
